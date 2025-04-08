@@ -4,6 +4,14 @@ This repository contains the code for `StarCLIP`, a contrastive self-supervised 
 
 <img width="694" alt="Screenshot 2025-04-08 at 11 57 41 AM" src="https://github.com/user-attachments/assets/ba0d867e-eb4d-4f27-95ed-507f7a5d9706" />
 
+## File Structure
+
+This repository is structured, as follows:
+
+-   `input/data` contains the data sources used in analysis including the raw and cleaned data. 
+-   `Paper` contains the PDF and LaTeX source version of the paper. 
+-   `scripts` contains the R scripts used to simulate (`00-simulate_data.R`), download (`01-download_data.R`) and clean data (`02-data_cleaning.R`). Helper functions (`03-helper_functions.R`) used in these scripts is also included. 
+
 ## Results
 - To the best of our knowledge, we develop one of the first self-supervised foundation models for analysing NIRSpec data, along with a pipeline for seamless integration with observed data.
 - We train robust CNNs in a supervised setting to predict stellar parameters with high precision and accuracy.
