@@ -10,7 +10,7 @@ This repository is structured, as follows:
 
 -   `DATA` contains the cleaned data sources used in analysis. 
 -   `Paper` contains the PDF and LaTeX source files of the paper.
--   `DATA` contains the R scripts used to simulate (`00-simulate_data.R`), download (`01-download_data.R`) and clean data (`02-data_cleaning.R`). Helper functions (`03-helper_functions.R`) used in these scripts is also included. 
+-   `Scripts` contains the Python scripts used to simulate (`StarNet.ipynb`) and ... (``).
 
 ## Results
 - To the best of our knowledge, we develop one of the first self-supervised foundation models for analysing NIRSpec data, along with a pipeline for seamless integration with observed data.
