@@ -8,7 +8,6 @@ This repository contains the code for `StarCLIP`, a contrastive self-supervised 
 
 This repository is structured, as follows:
 
--   `DATA` contains the cleaned data sources used in analysis. 
 -   `Paper` contains the PDF and LaTeX source files of the paper.
 -   `Scripts` contains the Python scripts used to simulate (`StarNet.ipynb`) and ... (``).
 
