@@ -1,6 +1,6 @@
 # Applying Contrastive Learning to Stellar Spectra
 
-This repository contains the code for `StarCLIP`, a contrastive self-supervised learning framework that embeds observed APOGEE and _ab initio_ JWST/NIRSpec spectra into a unified, physically meaningful latent space. It also includes `MockStarCLIP`, a variant trained on semi-empirical, stochastically transformed JWST/NIRSpec spectra to simulate realistic observational effects.
+This repository contains the code for `StarCLIP`, a contrastive self-supervised learning framework that embeds observed APOGEE and _ab initio_ JWST/NIRSpec spectra into a unified, physically meaningful latent space. Our approach consists of training convolutional neural networks (CNNs) to recover twenty fundamental stellar properties from single-modal spectroscopic data. We then adopt these pre-trained CNNs as encoders, aligning them via contrastive loss. To simulate realistic NIRSpec observations, we construct semi-empirical, stochastic NIRSpec catalogs and embed them into the shared latent space using \textsc{MockStarCLIP}, a modified CLIP-based framework. Both models enable seamless transfer to downstream tasks, including cosine similarity search and stellar property recovery.
 
 <img width="694" alt="Screenshot 2025-04-08 at 11 57 41 AM" src="https://github.com/user-attachments/assets/ba0d867e-eb4d-4f27-95ed-507f7a5d9706" />
 
