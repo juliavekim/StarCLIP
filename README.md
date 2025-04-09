@@ -29,6 +29,7 @@ This repository is structured as follows:
 
 - `DATA/`
   Contains the following input data files:
+  
   - `apogee_dr17.h5`: A summary HDF5 file from SDSS DR17 containing stellar labels, including effective temperature, surface gravity, metallicity, and elemental abundances.
   - `apogee_spectra.pkl.gz`: A compressed pickled dataset containing APOGEE spectra. 
   -  `JWST_APOGEE.h5` *(external)*: A semi-synthetic catalog of JWST/NIRSpec + APOGEE spectra, with accompayning stellar parameters.  
