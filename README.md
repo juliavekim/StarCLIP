@@ -13,7 +13,7 @@ This repository contains the code for `StarCLIP`, a contrastive self-supervised 
 
 ## File Structure
 
-├── Paper/                # PDF and LaTeX source files  
-├── Scripts/  
-│   ├── StarNet.ipynb     # CNN training for stellar parameter regression  
-│   └── StarCLIP.ipynb    # Contrastive framework implementation  
+This repository is structured, as follows:
+
+-   `Paper` contains the PDF and LaTeX source files of the paper.
+-   `Scripts` contains the Python scripts used to train CNNs (`StarNet.ipynb`) and implement the contrastive frameworks (`StarCLIP.ipynb`).
