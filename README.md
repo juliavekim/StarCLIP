@@ -36,5 +36,5 @@ This repository is structured as follows:
   ⚠️ Due to GitHub LFS limitations, this file is hosted externally and must be downloaded from the following link: [Download via Dropbox](https://www.dropbox.com/s/your-shared-link-here).
   After downloading, place it in the `DATA/` folder to run `StarCLIP.ipynb`.
 
-  > **Note:** These are the only required source files.  
-  > All additional datasets are automatically generated when running `StarCLIP.ipynb`.
+> **Note:** These are the only required source files.  
+> All additional datasets are automatically generated when running `StarCLIP.ipynb`.
