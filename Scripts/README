@@ -1,4 +1,3 @@
-
 ## Dataset generation
 
 The `StarCLIP.ipynb` notebook is used to generate the datasets required by `StarNet.ipynb` and the paper more broadly. As such, this notebook must be run first.
