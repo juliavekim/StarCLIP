@@ -9,7 +9,7 @@ This repository contains the code for `StarCLIP`, a contrastive self-supervised 
 This repository is structured, as follows:
 
 -   `Paper` contains the PDF and LaTeX source files of the paper.
--   `Scripts` contains the Python scripts used to simulate (`StarNet.ipynb`) and ... (``).
+-   `Scripts` contains the Python scripts used to train CNNs to predict stellar parameters from single-modal spectroscopic data (`StarNet.ipynb`) and apply contrastive training to align pre-trained encoders around shared physical properties (`StarCLIP.ipynb`).
 
 ## Results
 - To the best of our knowledge, we develop one of the first self-supervised foundation models for analysing NIRSpec data, along with a pipeline for seamless integration with observed data.
