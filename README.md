@@ -55,6 +55,7 @@ source venv/bin/activate # On Windows: .\venv\Scripts\activate
 ```
 
 ### 3. Install required packages.
+All required packages are version-pinned in `requirements.txt.`
 ```bash
 pip install -r requirements.txt
 ```
