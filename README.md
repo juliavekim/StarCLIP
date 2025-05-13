@@ -27,6 +27,7 @@ This repository is structured as follows:
   Contains the Python notebooks used to train CNNs (`StarNet.ipynb`) and implement the contrastive framework (`StarCLIP.ipynb`).
 
 - `DATA/`
+  
   Contains the following input data files:
   
   - `apogee_dr17.h5`: A summary HDF5 file from SDSS DR17 containing stellar labels, including effective temperature, surface gravity, metallicity, and elemental abundances.
@@ -59,4 +60,5 @@ pip install -r requirements.txt
 ```
 > 📌 **Tip**: If you encounter errors during installation, upgrade pip:
 > ```bash
-> python3 -m pip install --upgrade pip```
+> python3 -m pip install --upgrade pip
+> ```
