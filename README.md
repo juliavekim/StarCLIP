@@ -1,4 +1,4 @@
-# 🌌 Applying Contrastive Learning to Stellar Spectra
+# 🔭 Applying Contrastive Learning to Stellar Spectra
 
 This repository contains the code for **StarCLIP**, a contrastive self-supervised learning framework that embeds observed APOGEE and *ab initio* JWST/NIRSpec spectra into a unified, physically meaningful latent space.
 
@@ -18,7 +18,6 @@ Both models enable seamless transfer to downstream tasks, including cosine simil
 -  With minimal processing, our models enable accurate transfer to downstream tasks, including (i) in-modal and cross-modal cosine similarity searches and (ii) stellar property estimation from spectra. These tasks empirically show that latent embeddings capture key physical properties of underlying stars.
 
 ## File Structure
-
 This repository is structured as follows:
 
 - `Paper/`  
@@ -38,3 +37,12 @@ This repository is structured as follows:
 
 > **Note:** These are the only required source files.  
 > All additional datasets are automatically generated when running `StarCLIP.ipynb`.
+
+## Installation
+To reproduce results, follow the steps below to install all dependencies. 
+
+### 1. Clone the repository.
+```bash
+
+git clone https://github.com/juliavekim/StarCLIP.git
+cd StarCLIP```
