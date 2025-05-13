@@ -35,8 +35,7 @@ This repository is structured as follows:
   ⚠️ Due to GitHub LFS limitations, this file is hosted externally and must be downloaded from the following link: [Download via Dropbox](https://www.dropbox.com/scl/fi/nfj0zoc908hojfa8r5ahy/JWST_APOGEE.h5?rlkey=zmb6t598qizkzx6kdoq8ncbyo&st=1b5ltjt5&dl=0).
   After downloading, place it in the `DATA/` folder to run `StarCLIP.ipynb`.
 
-
-  > 📌 **Note:** These are the only required source files. All additional datasets are automatically generated when running `StarCLIP.ipynb`.
+  📌 **Note:** These are the only required source files. All additional datasets are automatically generated when running `StarCLIP.ipynb`.
 
 ## Installation
 To reproduce results, follow the steps below to install all dependencies. 
@@ -59,4 +58,5 @@ source venv/bin/activate # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 ```
 > 📌 **Tip**: If you encounter errors during installation, upgrade pip:
-> ```bash python3 -m pip install --upgrade pip```
+> ```bash
+> python3 -m pip install --upgrade pip```
