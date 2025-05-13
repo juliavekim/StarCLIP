@@ -30,7 +30,7 @@ This repository is structured as follows:
   
   Contains the following input data files:
   
-  - `apogee_dr17.h5`: A summary HDF5 file from SDSS DR17 containing stellar labels, including $T_{\text{eff}$, $\log g$, [Fe/H], and elemental abundances [X/H].
+  - `apogee_dr17.h5`: A summary HDF5 file from SDSS DR17 containing stellar labels, including $T_{\text{eff}}$, $\log g$, [Fe/H], and elemental abundances [X/H].
   - `apogee_spectra.pkl.gz`: A compressed pickled dataset containing APOGEE spectra. 
   -  `JWST_APOGEE.h5` *(external)*: A semi-synthetic catalog of JWST/NIRSpec + APOGEE spectra, with accompayning stellar parameters.  
   ⚠️ Due to GitHub LFS limitations, this file is hosted externally and must be downloaded from the following link: [Download via Dropbox](https://www.dropbox.com/scl/fi/nfj0zoc908hojfa8r5ahy/JWST_APOGEE.h5?rlkey=zmb6t598qizkzx6kdoq8ncbyo&st=1b5ltjt5&dl=0).
