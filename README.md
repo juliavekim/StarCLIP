@@ -63,3 +63,10 @@ pip install -r requirements.txt
 > ```bash
 > python3 -m pip install --upgrade pip
 > ```
+
+### 4. Run the notebooks.
+Launch the notebooks with:
+```bash
+jupyter notebook 
+```
+Open the `StarNet.ipnyb` and `StarCLIP.ipnyb` from the `Scripts/` folder. 
